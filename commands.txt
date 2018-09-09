@@ -1,1 +1,1 @@
-
+yay -S pantheon-session-git pantheon-default-settings-git gnome-settings-daemon-elementary pantheon-print-git pantheon-polkit-agent-git elementary-icon-theme lightdm-pantheon-greeter ttf-opensans ttf-raleway ttf-dejavu ttf-droid ttf-freefont ttf-liberation pantheon-files pantheon-terminal pantheon-code pantheon-calculator pantheon-music pantheon-videos pantheon-calendar-git epiphany-pantheon-bzr pantheon-mail-git pantheon-screenshot eidete-bzr pantheon-photos pantheon-camera-git elementary-scan-bzr switchboard
