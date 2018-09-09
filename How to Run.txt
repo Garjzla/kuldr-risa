@@ -17,10 +17,8 @@ In addition, except plank, all the Pantheon components store their configuration
 which can be edited with dconf-editor.
 ----------------------------------------------------------------------------------------------------------------------------------------
 Terminal Opacity
-To make pantheon-terminal (semi-)transparent, set the dconf key org.pantheon.terminal.settings.opacity to your desired opacity; 
-for pantheon-terminal-git, the background color and transparency are set by io.elementary.terminal.settings.background.
-
-
+To make pantheon-terminal (semi-)transparent, set the dconf key org.pantheon.terminal.settings.opacity to your desired opacity
+----------------------------------------------------------------------------------------------------------------------------------------
 config display manager
 
 $ sudo nano /etc/lightdm/lightdm.conf
@@ -34,3 +32,4 @@ Then, start and enable lightdm login manager to start at boot as shown below.
 
 $ sudo systemctl start lightdm.service
 $ sudo systemctl enable lightdm.service
+-----------------------------------------------------------------------------------------------------------------------------------------
