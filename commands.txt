@@ -1,0 +1,2 @@
+These are the commands needed to install pantheon on Arch linux
+
