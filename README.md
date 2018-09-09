@@ -1,2 +1,2 @@
 # kuldr-risa
-this is used to nstall pantheon on arch linux
+this is used to install pantheon on arch linux
