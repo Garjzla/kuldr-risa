@@ -9,3 +9,7 @@ Then, run either
 
 bash install.txt
 sh install.txt
+
+Terminal
+Opacity
+To make pantheon-terminal (semi-)transparent, set the dconf key org.pantheon.terminal.settings.opacity to your desired opacity; for pantheon-terminal-gitAUR, the background color and transparency are set by io.elementary.terminal.settings.background.
