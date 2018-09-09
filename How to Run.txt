@@ -1,3 +1,7 @@
-bash example.txt
+run either
 
-sh example.txt
+bash install.txt
+
+or
+
+sh install.txt
