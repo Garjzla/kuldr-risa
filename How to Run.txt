@@ -10,9 +10,15 @@ Then, run either
 bash install.txt
 sh install.txt
 
+
+Configure Pantheon via switchboardAUR or switchboard-gitAUR and its plugs (switchboard-plug-*), which must be installed separately. Not all of gnome-control-center's settings panels have been ported. In addition, except plank, all the Pantheon components store their configuration in the org.pantheon or io.elementary gsettings keys, which can be edited with dconf-editor.
+
 Terminal
 Opacity
 To make pantheon-terminal (semi-)transparent, set the dconf key org.pantheon.terminal.settings.opacity to your desired opacity; for pantheon-terminal-gitAUR, the background color and transparency are set by io.elementary.terminal.settings.background.
+
+
+config display manager
 
 $ sudo nano /etc/lightdm/lightdm.conf
 Find the following line:
