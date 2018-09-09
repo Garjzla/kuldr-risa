@@ -1,14 +1,11 @@
 First, install yay
-
 $ sudo pacman -S git
 $ git clone https://aur.archlinux.org/yay.git
 $ cd yay
 $ makepkg -si
 
-run either
+Then, run either
 
 bash install.txt
-
-or
 
 sh install.txt
