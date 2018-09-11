@@ -1,7 +1,7 @@
 # kuldr-risa
 this is used to install pantheon on arch linux
 
-
+Also, IVM.txt means Installation Via Medium.com script(link below). My original script seems to have some errors regarding "conflicting files" on some PCs, so hopefully this will work.
 References
 
 https://wiki.archlinux.org/index.php/Pantheon
