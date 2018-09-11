@@ -6,6 +6,8 @@ References
 
 https://wiki.archlinux.org/index.php/Pantheon
 
+https://medium.com/@helder.bertoldo/arch-linux-e-pantheon-combina%C3%A7%C3%A3o-perfeita-ca8f5945ae
+
 
 Also, use this tool to clone VHDs to physical disks and vice versa
 
