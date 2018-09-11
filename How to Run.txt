@@ -32,4 +32,4 @@ Then, start and enable lightdm login manager to start at boot as shown below.
 
 $ sudo systemctl start lightdm.service
 $ sudo systemctl enable lightdm.service
------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------
