@@ -1,5 +1,5 @@
 # kuldr-risa
-this is used to install pantheon on arch linux
+This is used to install pantheon on arch linux
 
 Also, IVM.txt means Install Via Medium.com script(link below). My original script seems to have some errors regarding "conflicting files" on some PCs, so hopefully this will work.
 
@@ -36,9 +36,7 @@ Configure Pantheon via switchboard and its plugs (switchboard-plug-*), which mus
 
 Not all of gnome-control-center's settings panels have been ported. 
 
-In addition, except plank, all the Pantheon components store their configuration in the org.pantheon or io.elementary gsettings keys, 
-
-which can be edited with dconf-editor.
+In addition, except plank, all the Pantheon components store their configuration in the org.pantheon or io.elementary gsettings keys, which can be edited with dconf-editor.
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
