@@ -102,6 +102,7 @@ Note: You can edit the theme settings, such as wallpaper, the behavior of the nu
 install Urutau icons
 
 $ yay -S urutau-icons-git
+
 $ gsettings set org.gnome.desktop.interface icon-theme "urutau-icons"
 
 # etc
