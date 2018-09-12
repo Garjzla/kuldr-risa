@@ -1,7 +1,9 @@
 # kuldr-risa
 This is used to install pantheon on arch linux
 
-Also, IVM.txt means Install Via Medium.com script(link below). My original script seems to have some errors regarding "conflicting files" on some PCs, so hopefully this will work.
+arget.txt installs stable packages on Arch, While IVM.txt installs the latest release on Arch.
+I've found that on some computers, the stable version, on some computers, has errors concerning "conflicting files",
+so you should probably install IVM( Install Via Medium.com website script ) if these errors keep appearing. 
 
 # References
 
