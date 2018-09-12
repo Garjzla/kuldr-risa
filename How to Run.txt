@@ -72,7 +72,9 @@ config display manager
 
 LightDM: Configuring the Login Manager
 
-The login manager after it has been installed, needs a little adjustment, which is to add the elementary default Greeter (theme). To do this make sure you have installed the lightdm(without the -git extension) and the lightdm-pantheon-greeter-git .
+The login manager after it has been installed, needs a little adjustment, which is to add the elementary default Greeter (theme). 
+
+To do this make sure you have installed the lightdm(without the -git extension) and the lightdm-pantheon-greeter-git .
 
 Check available greeters
 
