@@ -25,6 +25,26 @@ $ makepkg -si
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
+Add the alucryd repository to your list of Arch repositories. 
+
+Enter the repository data at the end of the file /etc/pacman.conf with the following command
+
+echo -e "\ n [extra-alucryd] \ nServer = https://pkgbuild.com/~alucryd/\$repo/\$arch\n " | sudo tee -a /etc/pacman.conf
+
+The return should be this
+
+[extra-alucryd] 
+
+Server = https://pkgbuild.com/~alucryd/$repo/$arch
+
+Update the list of repositories and packages on your system
+
+sudo pacman -Syyu
+
+< from medium.com/@helder.bertoldo >
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
 Download the scripts
 
 $ git clone https://github.com/Du-Brisingr-Arget/kuldr-risa.git
@@ -47,7 +67,11 @@ Configure Pantheon via switchboard and its plugs (switchboard-plug-*), which mus
 
 Not all of gnome-control-center's settings panels have been ported. 
 
-In addition, except plank, all the Pantheon components store their configuration in the org.pantheon or io.elementary gsettings keys, which can be edited with dconf-editor.
+In addition, except plank, 
+
+all the Pantheon components store their configuration in the org.pantheon or io.elementary gsettings keys, 
+
+which can be edited with dconf-editor.
 
 < from the Arch Wiki >
 
@@ -65,7 +89,9 @@ config display manager
 
 LightDM: Configuring the Login Manager
 
-The login manager after it has been installed, needs a little adjustment, which is to add the elementary default Greeter (theme). To do this make sure you have installed the lightdm(without the -git extension) and the lightdm-pantheon-greeter-git .
+The login manager after it has been installed, needs a little adjustment, which is to add the elementary default Greeter (theme). 
+
+To do this make sure you have installed the lightdm(without the -git extension) and the lightdm-pantheon-greeter-git .
 
 Check available greeters
 
@@ -98,13 +124,15 @@ Note: You can edit the theme settings, such as wallpaper, the behavior of the nu
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
-# install Pantheon theme icons
+install Pantheon theme icons
+
 install Urutau icons
 
 $ yay -S urutau-icons-git
 
 $ gsettings set org.gnome.desktop.interface icon-theme "urutau-icons"
 
+----------------------------------------------------------------------------------------------------------------------------------------
 # etc
 Also, use this tool to clone VHDs to physical disks and vice versa
 
