@@ -2,8 +2,8 @@
 This script is used to install pantheon on arch linux
 
 arget.txt installs stable packages on Arch, while IVM.txt installs the latest release on Arch.
-I've found that on some computers, the stable version, on some computers, has errors concerning "conflicting files",
-so you should probably install with IVM( Install Via Medium.com website script (url below) ) if these errors keep appearing. 
+I've found that on some computers, the stable version has errors concerning "conflicting files",
+so you should probably install with IVM( Install Via Medium.com website script (url below) ) if these errors appear. 
 
 # References
 
