@@ -1,5 +1,5 @@
 # kuldr-risa
-This script is used to install pantheon on arch linux
+This script is used to install the Pantheon Desktop Environment on arch linux
 
 arget.txt installs stable packages on Arch, while IVM.txt installs the latest release on Arch.
 I've found that on some computers, the stable version has errors concerning "conflicting files",
