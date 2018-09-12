@@ -14,7 +14,7 @@ $ makepkg -si
 
 Add the alucryd repository to your list of Arch repositories. 
 
-Enter the repository data at the end of the file /etc/pacman.confwith the following command
+Enter the repository data at the end of the file /etc/pacman.conf with the following command
 
 echo -e "\ n [extra-alucryd] \ nServer = https://pkgbuild.com/~alucryd/\$repo/\$arch\n " | sudo tee -a /etc/pacman.conf
 
