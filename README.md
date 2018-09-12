@@ -27,21 +27,21 @@ $ makepkg -si
 
 Add the alucryd repository to your list of Arch repositories. 
 
-Enter the repository data at the end of the file /etc/pacman.conf with the following command
+Enter the repository data at the end of the file /etc/pacman.conf with nano
 
-echo -e "\ n [extra-alucryd] \ nServer = https://pkgbuild.com/~alucryd/\$repo/\$arch\n " | sudo tee -a /etc/pacman.conf
+$ sudo nano /etc/pacman.conf
 
-The return should be this
+type
 
-[extra-alucryd] 
+[extra-alucryd]
 
 Server = https://pkgbuild.com/~alucryd/$repo/$arch
+
+in the last line
 
 Update the list of repositories and packages on your system
 
 sudo pacman -Syyu
-
-< from medium.com/@helder.bertoldo >
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -134,6 +134,7 @@ $ yay -S urutau-icons-git
 $ gsettings set org.gnome.desktop.interface icon-theme "urutau-icons"
 
 ----------------------------------------------------------------------------------------------------------------------------------------
+
 # etc
 Also, use this tool to clone VHDs to physical disks and vice versa
 
