@@ -6,7 +6,6 @@ I've found that on some computers, the stable version has errors concerning "con
 so you should probably install with IVM( Install Via Medium.com/@helder.bertoldo's script (url below) ) if these errors appear. 
 
 # References
-
 https://wiki.archlinux.org/index.php/Pantheon
 
 https://medium.com/@helder.bertoldo/arch-linux-e-pantheon-combina%C3%A7%C3%A3o-perfeita-ca8f5945ae
@@ -64,21 +63,38 @@ To make pantheon-terminal (semi-)transparent, set the dconf key org.pantheon.ter
 
 config display manager
 
-$ sudo nano /etc/lightdm/lightdm.conf
+LightDM: Configuring the Login Manager
 
-Find the following line:
+The login manager after it has been installed, needs a little adjustment, which is to add the elementary default Greeter (theme). To do this make sure you have installed the lightdm(without the -git extension) and the lightdm-pantheon-greeter-git .
 
-#greeter-session=example-gtk-gnome
+Check available greeters
 
-And, uncomment and change it as shown below.
+ls -1 /usr/share/xgreeters
 
-greeter-session=lightdm-pantheon-greeter
+Available Greteers
 
-Then, start and enable lightdm login manager to start at boot as shown below.
+Elementary greeter should appear listed, if it is not, reinstall the package lightdm-pantheon-greeter-git
 
-$ sudo systemctl start lightdm.service
+Changing the default Lightdm theme
 
-$ sudo systemctl enable lightdm.service
+Open the file /etc/lightdm/lightdm.conf
+
+sudo nano /etc/lightdm/lightdm.conf
+
+Locate the line #greeter-session=located in the session (next to line 108)
+
+Note: It will only work if you exactly change the session session greeter-session!
+Uncomment the line by removing the # character and assign the greeter elementary by default.
+
+greeter-session = io.elementary.greeter 
+
+Save and close the editor.
+
+Note: You can edit the theme settings, such as wallpaper, the behavior of the num-lock key, among others, through the file
+
+/etc/lightdm/io.elementary.greeter.conf
+
+< from medium.com/@helder.bertoldo >
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
