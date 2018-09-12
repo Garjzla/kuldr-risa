@@ -26,11 +26,21 @@ $ makepkg -si
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
+Download the scripts
+
+$ git clone https://github.com/Du-Brisingr-Arget/kuldr-risa.git
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
 Then, run either
 
-bash install.txt
+$ bash install.txt
 
-sh install.txt
+or
+
+$ sh install.txt
+
+in the kuldr-risa directory
 
 --------------------------------------------------------------------------------------------------------------------------------------
 
@@ -40,11 +50,15 @@ Not all of gnome-control-center's settings panels have been ported.
 
 In addition, except plank, all the Pantheon components store their configuration in the org.pantheon or io.elementary gsettings keys, which can be edited with dconf-editor.
 
+< from the Arch Wiki >
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 
 Terminal Opacity
 
 To make pantheon-terminal (semi-)transparent, set the dconf key org.pantheon.terminal.settings.opacity to your desired opacity
+
+< from the Arch Wiki >
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
