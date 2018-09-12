@@ -110,6 +110,7 @@ sudo nano /etc/lightdm/lightdm.conf
 Locate the line #greeter-session=located in the session (next to line 108)
 
 Note: It will only work if you exactly change the session session greeter-session!
+
 Uncomment the line by removing the # character and assign the greeter elementary by default.
 
 greeter-session = io.elementary.greeter 
