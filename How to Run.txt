@@ -97,6 +97,7 @@ sudo nano /etc/lightdm/lightdm.conf
 Locate the line #greeter-session=located in the session (next to line 108)
 
 Note: It will only work if you exactly change the session session greeter-session!
+
 Uncomment the line by removing the # character and assign the greeter elementary by default.
 
 greeter-session = io.elementary.greeter 
@@ -108,5 +109,15 @@ Note: You can edit the theme settings, such as wallpaper, the behavior of the nu
 /etc/lightdm/io.elementary.greeter.conf
 
 < from medium.com/@helder.bertoldo >
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+install Pantheon theme icons
+
+install Urutau icons
+
+$ yay -S urutau-icons-git
+
+$ gsettings set org.gnome.desktop.interface icon-theme "urutau-icons"
 
 ----------------------------------------------------------------------------------------------------------------------------------------
