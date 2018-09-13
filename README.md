@@ -9,7 +9,7 @@ https://wiki.archlinux.org/index.php/Pantheon
 
 https://medium.com/@helder.bertoldo/arch-linux-e-pantheon-combina%C3%A7%C3%A3o-perfeita-ca8f5945ae
 
-# How to Run.txt
+# How to Run
 ------------------------------------------------------------------------------------------------------------------------------------
 
 First, install git
