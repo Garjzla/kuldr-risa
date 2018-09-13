@@ -1,1 +1,0 @@
-for f in `cat test.txt`; do `git clone $f`; done 
