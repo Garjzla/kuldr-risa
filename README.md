@@ -46,11 +46,7 @@ $ git clone https://github.com/Du-Brisingr-Arget/kuldr-risa.git
 
 Then, run either
 
-$ bash install.txt
-
-or
-
-$ sh install.txt
+$ bash install.argt
 
 in the kuldr-risa directory
 
