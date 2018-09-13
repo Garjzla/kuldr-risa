@@ -1,6 +1,9 @@
 # kuldr-risa
 This script is used to install the Pantheon Desktop Environment on arch linux
 
+# Old Version
+https://github.com/Du-Brisingr-Arget/kuldr-risa/tree/fb621cdf3db5d1f1cb3d7c868cd927080093f28c
+
 # References
 https://wiki.archlinux.org/index.php/Pantheon
 
