@@ -1,10 +1,6 @@
 # kuldr-risa
 This script is used to install the Pantheon Desktop Environment on arch linux
 
-arget.txt installs stable packages on Arch, while IVM.txt installs the latest release on Arch.
-I've found that on some computers, the stable version has errors concerning "conflicting files",
-so you should probably install with IVM( Install Via Medium.com/@helder.bertoldo's script (url below) ) if these errors appear. 
-
 # References
 https://wiki.archlinux.org/index.php/Pantheon
 
@@ -13,15 +9,9 @@ https://medium.com/@helder.bertoldo/arch-linux-e-pantheon-combina%C3%A7%C3%A3o-p
 # How to Run.txt
 ------------------------------------------------------------------------------------------------------------------------------------
 
-First, install yay
+First, install git
 
 $ sudo pacman -S git
-
-$ git clone https://aur.archlinux.org/yay.git
-
-$ cd yay
-
-$ makepkg -si
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
