@@ -2,7 +2,7 @@
 This script is used to install the Pantheon Desktop Environment on arch linux
 
 # Old Version
-https://github.com/Du-Brisingr-Arget/kuldr-risa/tree/fb621cdf3db5d1f1cb3d7c868cd927080093f28c
+https://github.com/Du-Brisingr-Arget/kuldr-risa/tree/c6ca09987b6d8502681100c1e41249a9742803a6
 
 # References
 https://wiki.archlinux.org/index.php/Pantheon
