@@ -1,6 +1,10 @@
 # kuldr-risa
 This script is used to install the Pantheon Desktop Environment on arch linux
 
+kuldr-risa uses a modified version of aur helper which I made to install packages.
+
+https://github.com/Garjzla/arget
+
 # Old Version
 https://github.com/Garjzla/kuldr-risa/tree/c6ca09987b6d8502681100c1e41249a9742803a6
 
@@ -10,12 +14,6 @@ https://wiki.archlinux.org/index.php/Pantheon
 https://medium.com/@helder.bertoldo/arch-linux-e-pantheon-combina%C3%A7%C3%A3o-perfeita-ca8f5945ae
 
 # How to Run
-------------------------------------------------------------------------------------------------------------------------------------
-
-First, install git
-
-$ sudo pacman -S git
-
 -------------------------------------------------------------------------------------------------------------------------------------
 
 Add the alucryd repository to your list of Arch repositories. 
@@ -38,39 +36,11 @@ sudo pacman -Syyu
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
-Download the scripts
-
-$ git clone https://github.com/Du-Brisingr-Arget/kuldr-risa.git
-
--------------------------------------------------------------------------------------------------------------------------------------
-
-Then, run either
+Run
 
 $ bash install.argt
 
 in the kuldr-risa directory
-
---------------------------------------------------------------------------------------------------------------------------------------
-
-Configure Pantheon via switchboard and its plugs (switchboard-plug-*), which must be installed separately. 
-
-Not all of gnome-control-center's settings panels have been ported. 
-
-In addition, except plank, 
-
-all the Pantheon components store their configuration in the org.pantheon or io.elementary gsettings keys, 
-
-which can be edited with dconf-editor.
-
-< from the Arch Wiki >
-
-----------------------------------------------------------------------------------------------------------------------------------------
-
-Terminal Opacity
-
-To make pantheon-terminal (semi-)transparent, set the dconf key org.pantheon.terminal.settings.opacity to your desired opacity
-
-< from the Arch Wiki >
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
@@ -121,6 +91,28 @@ install Urutau icons
 $ yay -S urutau-icons-git
 
 $ gsettings set org.gnome.desktop.interface icon-theme "urutau-icons"
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+Configure Pantheon via switchboard and its plugs (switchboard-plug-*), which must be installed separately. 
+
+Not all of gnome-control-center's settings panels have been ported. 
+
+In addition, except plank, 
+
+all the Pantheon components store their configuration in the org.pantheon or io.elementary gsettings keys, 
+
+which can be edited with dconf-editor.
+
+< from the Arch Wiki >
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Terminal Opacity
+
+To make pantheon-terminal (semi-)transparent, set the dconf key org.pantheon.terminal.settings.opacity to your desired opacity
+
+< from the Arch Wiki >
 
 ----------------------------------------------------------------------------------------------------------------------------------------
 
