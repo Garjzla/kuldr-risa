@@ -30,7 +30,7 @@ Server = https://pkgbuild.com/~alucryd/$repo/$arch
 
 under
 
-    community
+    [community]
     ***********************
 You should be able to find it in almost the last part
 
