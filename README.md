@@ -32,7 +32,7 @@ in the last line
 
 Update the list of repositories and packages on your system
 
-sudo pacman -Syyu
+argt -syu
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
@@ -90,7 +90,7 @@ install Pantheon theme icons
 
 install Urutau icons
 
-$ yay -S urutau-icons-git
+$ argt -i urutau-icons-git
 
 $ gsettings set org.gnome.desktop.interface icon-theme "urutau-icons"
 
