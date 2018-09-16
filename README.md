@@ -28,7 +28,11 @@ type
 
 Server = https://pkgbuild.com/~alucryd/$repo/$arch
 
-in the last line
+under
+
+    community
+    ***********************
+You should be able to find it in almost the last part
 
 Update the list of repositories and packages on your system
 
