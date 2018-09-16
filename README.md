@@ -36,6 +36,8 @@ sudo pacman -Syyu
 
 -------------------------------------------------------------------------------------------------------------------------------------
 
+Install Arget https://github.com/Garjzla/arget
+
 Git clone kuldr-risa and run
 
 $ bash install.argt
