@@ -1,0 +1,47 @@
+diff -rupN pantheon-default-settings.orig/debian/elementary-default-settings.gsettings-override pantheon-default-settings/debian/elementary-default-settings.gsettings-override
+--- pantheon-default-settings.orig/debian/elementary-default-settings.gsettings-override	2016-09-12 15:40:03.128022316 +0200
++++ pantheon-default-settings/debian/elementary-default-settings.gsettings-override	2016-09-12 15:41:11.141869826 +0200
+@@ -1,17 +1,16 @@
+ [net.launchpad.plank.dock.settings]
+-dock-items=['gala-multitaskingview.dockitem','org.gnome.Epiphany.dockitem','org.pantheon.mail.dockitem','io.elementary.calendar.dockitem','io.elementary.music.dockitem','io.elementary.videos.dockitem','io.elementary.photos.dockitem','io.elementary.switchboard.dockitem','io.elementary.appcenter.dockitem']
++dock-items=['gala-multitaskingview.dockitem','org.gnome.Epiphany.dockitem','org.pantheon.mail.dockitem','io.elementary.calendar.dockitem','io.elementary.music.dockitem','io.elementary.videos.dockitem','io.elementary.photos.dockitem','io.elementary.switchboard.dockitem']
+ hide-delay=250
+ hide-mode='window-dodge'
+ show-dock-item=false
+ theme='Gtk+'
+ 
+ [org.freedesktop.ibus.general.hotkey]
+ triggers=['<Control>space']
+
+ [org.gnome.desktop.background]
+-draw-background=true
+ picture-options='zoom'
+-picture-uri='file:///usr/share/backgrounds/elementaryos-default'
++picture-uri='file:///usr/share/backgrounds/pantheon/elementaryos-default'
+ primary-color='#000000'
+ show-desktop-icons=false
+ 
+@@ -25,7 +24,6 @@ font-name='Open Sans 9'
+ gtk-theme='elementary'
+ icon-theme='elementary'
+ monospace-font-name='Roboto Mono 10'
+-show-unicode-menu=false
+ toolbar-style='icons'
+ 
+ [org.gnome.desktop.peripherals.touchpad]
+@@ -120,7 +118,6 @@ active=false
+ 
+ [org.gnome.settings-daemon.plugins.media-keys]
+ screensaver='<Super>l'
+-terminal='<Super>t'
+ 
+ [org.gnome.settings-daemon.plugins.power]
+ ambient-enabled=false
+diff -rupN pantheon-default-settings.orig/plank/dock1/launchers/io.elementary.appcenter.dockitem pantheon-default-settings/plank/dock1/launchers/io.elementary.appcenter.dockitem
+--- pantheon-default-settings.orig/plank/dock1/launchers/io.elementary.appcenter.dockitem	2016-09-12 15:40:03.128022316 +0200
++++ pantheon-default-settings/plank/dock1/launchers/io.elementary.appcenter.dockitem	1970-01-01 01:00:00.000000000 +0100
+@@ -1,4 +0,0 @@
+-[PlankDockItemPreferences]
+-Launcher=file:///usr/share/applications/io.elementary.appcenter.desktop
+-
+-

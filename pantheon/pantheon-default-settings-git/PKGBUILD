@@ -1,0 +1,49 @@
+# Maintainer: Maxime Gauduin <alucryd@archlinux.org>
+
+pkgname=pantheon-default-settings-git
+pkgver=r352.16b9add
+pkgrel=1
+pkgdesc='Default settings for Pantheon'
+arch=('any')
+url='https://github.com/elementary/default-settings'
+license=('GPL')
+groups=('pantheon-unstable')
+depends=(
+  'elementary-icon-theme-git' 'gtk-theme-elementary-git'
+  'elementary-wallpapers-git' 'sound-theme-elementary-git'
+)
+makedepends=('git')
+optdepends=(
+  'ttf-droid: Default elementary font'
+  'ttf-opensans: Default elementary font'
+)
+provides=('pantheon-default-settings')
+conflicts=('pantheon-default-settings')
+source=('pantheon-default-settings::git+https://github.com/elementary/default-settings.git'
+        'arch-tweaks.patch')
+sha256sums=('SKIP'
+            'eae2fbf58c8a7b88966b170d697bf095c856ff28eac69cb6d667f816a0a01758')
+
+pkgver() {
+  cd pantheon-default-settings
+
+  echo "r$(git rev-list --count HEAD).$(git rev-parse --short HEAD)"
+}
+
+prepare() {
+  cd pantheon-default-settings
+
+  patch -Np1 -i ../arch-tweaks.patch
+}
+
+package() {
+  cd pantheon-default-settings
+
+  install -Dm 644 debian/elementary-default-settings.gsettings-override "${pkgdir}"/usr/share/glib-2.0/schemas/25_pantheon-default-settings.gschema.override
+  install -Dm 644 settings.ini -t "${pkgdir}"/etc/gtk-3.0/
+  install -dm 755 "${pkgdir}"/etc/skel/.config
+  cp -dr --no-preserve='ownership' plank "${pkgdir}"/etc/skel/.config/
+  cp -dr --no-preserve='ownership' profile.d sudoers.d "${pkgdir}"/etc/
+}
+
+# vim: ts=2 sw=2 et:
