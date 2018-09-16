@@ -1,7 +1,7 @@
 # kuldr-risa
 This script is used to install the Pantheon Desktop Environment on Arch Linux
 
-kuldr-risa uses a modified version of Arget to install packages.
+kuldr-risa uses Arget to install packages.
 
 https://github.com/Garjzla/arget
 
