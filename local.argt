@@ -1,4 +1,4 @@
-for d in /path/to/dir/*; do
+for d in /pantheon*; do
   if [ -d "$d" ]; then
     echo "$d"
   fi
