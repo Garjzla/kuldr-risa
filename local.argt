@@ -1,5 +1,5 @@
 for d in pantheon/*; do
       cd $d
-      makepkg -sirc --noconfirm
+      makepkg -sic
       cd ..
 done
