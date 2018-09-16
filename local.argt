@@ -1,5 +1,5 @@
-for d in /pantheon*; do
-  if [ -d "$d" ]; then
-    echo "$d"
-  fi
+for d in pantheon/*; do
+      cd $d
+      makepkg -sirc --noconfirm
+      cd ..
 done
