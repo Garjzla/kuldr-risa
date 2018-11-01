@@ -1,4 +1,4 @@
-for d in pantheon/*; do
+for d in $(readlink -f pantheon/*); do
       cd $d
       makepkg -sic
       cd ..
